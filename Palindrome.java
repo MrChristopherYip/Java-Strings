@@ -9,6 +9,8 @@ public class Palindrome {
 
         boolean isPal = isPalindrome(s);
         System.out.println("\"" + s + "\"" + " is " + (isPal ? "" : "not ") + "a palindrome.");
+
+        input.close();
     }
 
     static boolean isPalindrome(String s) {

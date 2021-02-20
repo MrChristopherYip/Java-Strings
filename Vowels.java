@@ -8,11 +8,12 @@ public class Vowels {
         String s = input.nextLine();
         s = s.toLowerCase();
 
-        int count = countVowels(s);
-        System.out.println("Vowel count: " + count);
+        System.out.println("Vowel count: " + countVowels(s));
+
+        input.close();
     }
 
-    static int countVowels(String s) {
+    private static int countVowels(String s) {
         int count = 0;
         char c;
 
