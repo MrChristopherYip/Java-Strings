@@ -13,7 +13,7 @@ public class Palindrome {
         input.close();
     }
 
-    static boolean isPalindrome(String s) {
+    private static boolean isPalindrome(String s) {
         StringBuilder sb = new StringBuilder(s);
         sb.reverse();
         return s.equalsIgnoreCase(sb.toString());
